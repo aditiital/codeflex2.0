@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Missions</title>
+
+    <style>
+        body {
+            background-image: url('marvel-heroes-hd-marvel-heroes-poster-wallpaper-preview.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .marvel-missions {
+            
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .mission-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .mission {
+            margin: 20px;
+            width: 250px;
+            background-color: #fcf6f9;
+            border: 1px solid #01191d;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(63, 238, 223, 0.1);
+        }
+
+        .mission img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .mission h2 {
+            color: #5b2a77;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .mission p {
+            font-size: 14px;
+            color: #080000;
+            margin-bottom: 10px;
+        }
+
+        .animate-button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .animate-button:hover {
+            background-color: #4febf7;
+        }
+
+        .main-container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body></body>
+    <header>
+        <h1>Marvel Superheroes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="marvels.html">Heroes</a></li>
+                <li><a href="abilities.html">Abilities</a></li>
+                <li><a href="missions.html">Missions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to the Marvel Universe!</h2>
+        <p>Discover your favorite superheroes and their amazing abilities.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Marvel Universe</p>
+    </footer>
+</body>
+</html>
+
+    <main class="main-container">
+        <section class="marvel-missions">
+            <h1>Marvel Missions</h1>
+            <div class="mission-container">
+                <div class="mission">
+                    <img src="images/iron-man-mission.jpg" alt="Iron Man Mission">
+                    <h2>Iron Man's Mission</h2>
+                    <p>Stop the Ultron invasion</p>
+                    <button class="animate-button">Animate</button>
+                </div>
+                <div class="mission">
+                    <img src="images/captain-america-mission.jpg" alt="Captain America Mission">
+                    <h2>Captain America's Mission</h2>
+                    <p>Retrieve the stolen S.H.I.E.L.D. data</p>
+                    <button class="animate-button">Animate</button>
+                </div>
+                <div class="mission">
+                    <img src="images/spider-man-mission.jpg" alt="Spider-Man Mission">
+                    <h2>Spider-Man's Mission</h2>
+                    <p>Stop the Sinister Six</p>
+                    <button class="animate-button">Animate</button>
+                </div>
+                <!-- Add more Marvel missions here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Optional footer content goes here -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
